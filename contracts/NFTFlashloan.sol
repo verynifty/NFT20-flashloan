@@ -5,6 +5,8 @@ import "../interfaces/INFT20Pair.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import "../interfaces/IFlashLoanReceiver.sol";
 
+import "hardhat/console.sol";
+
 contract NFTFlashloan is IFlashLoanReceiver, IERC721Receiver {
     IERC721 public constant HASHMASK =
         IERC721(0xC2C747E0F7004F9E8817Db2ca4997657a7746928);
@@ -21,9 +23,12 @@ contract NFTFlashloan is IFlashLoanReceiver, IERC721Receiver {
         address initiator,
         bytes calldata params
     ) external override returns (bool) {
+        console.log("here");
         // Do stuff with the tokens nft ids
         for (uint256 i = 0; i < _ids.length; i++) {
             //   do something with nfts but you must return them to the same amount of nfts to contract after
+
+            console.log(_ids[i]);
         }
         return true;
     }

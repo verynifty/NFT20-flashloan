@@ -38,7 +38,7 @@ module.exports = {
 		hardhat: {
 			forking: {
 				url: `https://mainnet.infura.io/v3/${process.env.INFURA}`, //put your infura key
-				blockNumber: 12866995, //put the block of the mainnet fork you want
+				blockNumber: 12867134,
 			},
 		},
 		localhost: {
