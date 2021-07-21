@@ -26,7 +26,7 @@ contract NFTFlashloan is IFlashLoanReceiver, IERC721Receiver {
         console.log("here");
         // Do stuff with the tokens nft ids
         for (uint256 i = 0; i < _ids.length; i++) {
-            //   do something with nfts but you must return them to the same amount of nfts to contract after
+            // do something with nfts, the same nfts must return to this contract after you do something for the flashloan to work
 
             console.log(_ids[i]);
         }
