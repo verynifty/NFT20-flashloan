@@ -8,28 +8,7 @@ const MEME_PAIR = "0x60acd58d00b2bcc9a8924fdaa54a2f7c0793b3b2";
 let account = "0x4B5922ABf25858d012d12bb1184e5d3d0B6D6BE4";
 
 // TODO Tokens you want to loan from the NFT20 pool out
-const TOKENS = [
-	930,
-	14344,
-	2248,
-	14483,
-	13728,
-	13844,
-	9433,
-	10046,
-	10229,
-	14369,
-	12790,
-	4514,
-	4976,
-	10185,
-	13954,
-	15634,
-	14985,
-	4143,
-	14381,
-	12412,
-];
+const TOKENS = [5770];
 
 const MEME_TOKENS = [1];
 
